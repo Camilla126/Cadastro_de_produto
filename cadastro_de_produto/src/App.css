@@ -1,0 +1,61 @@
+.tabbleConteiner {
+    max-width: 700px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.tabbleConteiner th,
+.tabbleConteiner td {
+    width: 20%;
+    padding: 1px 1px;
+}
+
+.tabbleConteiner thead th {
+    background-color: #06523f;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.tabbleConteiner tbody td {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.tabbleConteiner tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.tabbleConteiner tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td:hover,
+.button:hover {
+    background-color: rgb(217, 248, 221);
+    color: #000000;
+}
+
+.button {
+    background-color: #125c33;
+    color: #ffffff;
+}
+
+input {
+    max-width: 750px;
+    width: 100%;
+}
+
+.formConteiner {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+}
+
+.buttonDelet {
+    background-color: #90ebb9;
+}
